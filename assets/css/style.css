@@ -83,7 +83,7 @@ background-color: #2d5784;
 }
 
 
-/*--------------------------------------------------Callout container*/
+/*---------------------------------Callout container-----------------*/
 
 .callout-container {
     background: #bbc3cc;    
@@ -94,7 +94,7 @@ background-color: #2d5784;
     font-family: "Exo",sans-serif;
 }
 
-/*---------------------------------------------About*/
+/*-------------------------------About--------------*/
 
 .container-wrapper {
     color: whitesmoke;
@@ -116,4 +116,95 @@ background-color: #2d5784;
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
+}
+
+
+/*--------------------------------Images---------------------------*/
+
+.contact-container {
+    background:
+        url("../images/image4.jpg") no-repeat center center fixed; 
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} 
+
+.image-container {
+    height: 300px;
+    background:
+        url("../images/image3.jpg") no-repeat center center fixed; 
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.quote-image-container {
+    height: 300px;
+    background:
+        url("../images/image2.jpg") no-repeat center center; 
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*--------------------------------Media Queries----------------*/
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*---------------------------------Bloc dividers-----------------*/
+
+.block-divider {
+    width: 75px;
+    height: 3px;
+    border: 0px;
+    background-color: #28a745;/*#adcff3;*/
+    margin-bottom: 4rem;
+}
+
+
+/*------------------------------Content containers------------------*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*----------------------------------Page headers--------------*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h5 {
+    margin-top: 0;
+
 }
