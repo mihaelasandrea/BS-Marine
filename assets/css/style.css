@@ -64,7 +64,7 @@ background-color: #2d5784;
     background-color: rgba(0,0,0,0.5);
 }
 
-/*----------------------------------------------------------Jumbotron*/
+/*----------------------------------Jumbotron------------------------*/
 
 .jumbotron {
     background-color: transparent;
@@ -92,4 +92,28 @@ background-color: #2d5784;
 .callout-container h2 {
     color: rgb(97, 97, 100);
     font-family: "Exo",sans-serif;
+}
+
+/*---------------------------------------------About*/
+
+.container-wrapper {
+    color: whitesmoke;
+    width: 100%;
+}
+
+.container-wrapper--blue {
+    color: whitesmoke;
+}
+
+
+.about {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.about i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
