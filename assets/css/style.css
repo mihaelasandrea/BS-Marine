@@ -313,6 +313,7 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 100%;
 }
+}
 
 /*---------------------------------Bloc dividers-----------------*/
 
@@ -342,5 +343,4 @@ button[type="submit"] {
 
 .page-header h5 {
     margin-top: 0;
-
 }
