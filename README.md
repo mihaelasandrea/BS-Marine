@@ -1,6 +1,6 @@
 <h1 align="center"> BS Marine Website</h1>
 
-[View the live project here](https://mihaelasandrea.github.io/UCFD-Milestone-Project)
+[View the live project here](https://mihaelasandrea.github.io/BS-Marine/)
 
 Welcome to the BS Marine official website. 
 This is the main marketing website for BS Marine. It is designed to be responsive and accsessible on a range of devices, making it easy to navigate for potential partners and clients.
