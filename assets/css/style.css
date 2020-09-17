@@ -63,3 +63,33 @@ background-color: #2d5784;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
 }
+
+/*----------------------------------------------------------Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+
+.jumbotron h2 {
+    color: #c7d0d8;
+}
+
+
+.jumbotron h1 {
+    color: #c7d0d8;
+    font-weight: bold;
+    margin-top: 270px;
+}
+
+
+/*--------------------------------------------------Callout container*/
+
+.callout-container {
+    background: #bbc3cc;    
+}
+
+.callout-container h2 {
+    color: rgb(97, 97, 100);
+    font-family: "Exo",sans-serif;
+}
