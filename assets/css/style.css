@@ -1,7 +1,6 @@
 body {
 font-family: 'Exo', sans-serif;
 background-color: #2d5784;
-
 }
 
 /*--------------------------Navbar--------------------------*/
@@ -124,6 +123,7 @@ background-color: #2d5784;
 /*-----------------------------------------------services*/
 
 
+/* I've put this class to put some margin between card so they dont stick together */
 .service-card{
     margin: 20px auto;
     justify-content: center;
@@ -161,6 +161,10 @@ background-color: #2d5784;
     margin-left: auto;
 }
 }
+
+
+
+
 /*--------------------------------------------------Contact form*/
 
 
