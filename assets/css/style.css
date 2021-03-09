@@ -1,4 +1,5 @@
 *{
+    overflow-x: hidden;
     box-sizing: border-box;
 }
 
@@ -8,7 +9,6 @@ html {
 }
 
 body {
-    overflow-x: hidden;
     font-family: 'Exo', sans-serif;
     background-color: #2d5784;
 }
@@ -80,12 +80,9 @@ body {
 
 .about {
     text-align: left;
-    margin-bottom: 20px;
-    margin-top: 50px;
 }
 
 .about i {
-    margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
 }
@@ -98,7 +95,6 @@ body {
     width: 100%;
     height: 100%;
     color: grey;
-    margin: auto;
     justify-content: center;
 }
 
@@ -132,10 +128,6 @@ body {
 
 /*--------------------------------------------------------Footer*/
 
-.uppercase {
-    text-transform: uppercase;
-}
-
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -144,7 +136,6 @@ body {
 
 
 .footer {
-    background-color: #2d5784;
     min-height: 120px;
     text-align: center;
     
@@ -274,6 +265,5 @@ body {
 @media (max-width: 980px) {
     .form {
         width: 90%;
-        text-align: left;
     }
 }
