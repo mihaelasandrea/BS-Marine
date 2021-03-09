@@ -138,9 +138,6 @@ body {
     color: white;
 }
 
-.contact-container {
-    padding-bottom: 5%;
-}
 
 /*----------------------------------------------------------------------------------Footer*/
 
@@ -215,8 +212,15 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 5%;
+}
 
-} 
+.contact-container h2 {
+    background-color: rgba(0,0,0,0.7);
+    width: 20%;
+    height: auto;
+    margin: 5% auto;
+}
 
 .image-container {
     height: 300px;
@@ -292,5 +296,9 @@ section h2 {
 
     .contact-container {
         padding-bottom: 15%;
+    }
+
+    .contact-container h2 {
+        width: 90%;
     }
 }
