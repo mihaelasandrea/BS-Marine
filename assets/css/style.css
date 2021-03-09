@@ -87,6 +87,8 @@ body {
 
 .about {
     text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about i {
@@ -300,5 +302,10 @@ section h2 {
 
     .contact-container h2 {
         width: 90%;
+    }
+
+    .about {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
