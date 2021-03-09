@@ -14,7 +14,7 @@ body {
     color: whitesmoke;
 }
 
-/*--------------------------Navbar--------------------------*/
+/*-----------------------------------------------------------------Navbar--------------------------*/
 .navbar {
     background-color: rgba(0,0,0,0.9);
 }
@@ -22,7 +22,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
     color: white;
 }
-/*------------------------------Home------------------------*/
+/*-------------------------------------------------------------------Home------------------------*/
 
 .home-container {
     background: 
@@ -48,7 +48,7 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-/*----------------------------------Jumbotron------------------------*/
+/*----------------------------------------------------------------------Jumbotron------------------------*/
 
 .jumbotron {
     background-color: transparent;
@@ -65,7 +65,7 @@ body {
     margin-top: 270px;
 }
 
-/*---------------------------------Callout container-----------------*/
+/*--------------------------------------------------------------------Callout container-----------------*/
 
 .callout-container {
     background: #bbc3cc;
@@ -83,7 +83,7 @@ body {
     font-family: "Exo",sans-serif;
 }
 
-/*-------------------------------About--------------*/
+/*--------------------------------------------------------------------------------About--------------*/
 
 .about {
     text-align: left;
@@ -94,7 +94,7 @@ body {
     line-height: 45px;
 }
 
-/*-----------------------------------------------services*/
+/*--------------------------------------------------------------------------------------------Services*/
 
 
 .card {
@@ -127,7 +127,7 @@ body {
     margin-left: 3%;
 }
 
-/*--------------------------------------------------Contact form*/
+/*-----------------------------------------------------------------------------------Contact form*/
 .form {
     width: 60%;
     height: 100%;
@@ -138,7 +138,11 @@ body {
     color: white;
 }
 
-/*--------------------------------------------------------Footer*/
+.contact-container {
+    padding-bottom: 5%;
+}
+
+/*----------------------------------------------------------------------------------Footer*/
 
 .general-sub {
     font-family: "Exo", sans-serif;
@@ -148,9 +152,8 @@ body {
 
 
 .footer {
-    min-height: 120px;
+    height: fit-content;
     text-align: center;
-    
 }
 
 .email-disclaimer i {
@@ -163,8 +166,6 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-
 
 .social-links {
     padding-bottom: 15px;
@@ -204,7 +205,7 @@ body {
     text-align: center;
 }
 
-/*--------------------------------Images---------------------------*/
+/*--------------------------------------------------------------------------Images---------------------------*/
 
 .contact-container {
     background:
@@ -249,17 +250,20 @@ body {
     position: relative;
 }
 
-/*---------------------------------Bloc dividers-----------------*/
+/*--------------------------------------------------------------------------Bloc dividers-----------------*/
 
 .block-divider {
     width: 75px;
     height: 3px;
     border: 0px;
     background-color: #28a745;/*#adcff3;*/
-    margin-bottom: 4rem;
 }
 
-/*----------------------------------Page headers--------------*/
+/*----------------------------------------------------------------------------------Page headers--------------*/
+
+section h2 {
+    margin-top: 5%;
+}
 
 .page-header {
     margin-bottom: 0;
@@ -272,7 +276,7 @@ body {
 }
 
 
-/*--------------------------------Media Queries----------------*/
+/*--------------------------------------------------------------------------------Media Queries----------------*/
 
 @media (max-width: 980px) {
     .form {
@@ -286,5 +290,13 @@ body {
     .services {
         margin-right: 1%;
         margin-left: 1%;
+    }
+
+    section h2 {
+        margin-top: 15%;
+    }
+
+    .contact-container {
+        padding-bottom: 15%;
     }
 }
