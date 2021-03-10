@@ -214,6 +214,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -297,6 +298,7 @@ section h2 {
     }
 
     .contact-container {
+        padding-top: 10%;
         padding-bottom: 15%;
     }
 
