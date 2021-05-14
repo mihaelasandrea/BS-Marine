@@ -1,3 +1,4 @@
+'use strict';
 /* Autoclose navbar when click on link */
 
 $('.navbar-collapse a').click(function(){
@@ -13,3 +14,12 @@ function copyrightYear() {
 }
 
 copyrightYear();
+
+// Scroll smooth
+document.querySelectorAll('.nav-link').forEach(function (el) {
+  el.addEventListener('click', function (e) {
+    e.preventDefault();
+    const id = this.getAttribute('href');
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  });
+});
